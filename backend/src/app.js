@@ -1,0 +1,11 @@
+//in this file we gonna create server 
+
+const express = require('express');
+
+const app = express();
+
+app.get('/',(req,res)=>{
+    res.send("Hello World !");
+})
+
+module.exports = app;
